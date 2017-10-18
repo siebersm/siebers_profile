@@ -1,5 +1,5 @@
 #
-class techyfriday_profile::demo::quest2 (
+class siebers_profile::demo::quest2 (
   String           $directory      = 'data',
   String           $file_name      = 'info.txt',
   Optional[String] $file_parameter = undef,

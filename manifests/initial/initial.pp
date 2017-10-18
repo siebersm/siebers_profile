@@ -1,8 +1,8 @@
 #
 #
-class techyfriday_profile::initial::initial {
+class siebers_profile::initial::initial {
 
-  tag 'techyfriday_profile_initial_initial'
+  tag 'siebers_profile_initial_initial'
 
   notify { 'Initial message':
     message => "

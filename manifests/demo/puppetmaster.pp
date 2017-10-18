@@ -1,11 +1,11 @@
 #
-class techyfriday_profile::demo::puppetmaster (
+class siebers_profile::demo::puppetmaster (
   String $puppetdb_listen_address   = 'puppetmaster.example.com',
   String $puppetboard_puppetdb_host = $puppetdb_listen_address,
   String $puppetboard_vhost_name    = $puppetdb_listen_address,
 ){
 
-  tag 'techyfriday_profile_demo_puppetmaster'
+  tag 'siebers_profile_demo_puppetmaster'
 
   class { 'puppetdb':
     listen_address  => $puppetdb_listen_address,

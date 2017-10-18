@@ -1,5 +1,5 @@
 #
-class techyfriday_profile::demo::quest1 (){
+class siebers_profile::demo::quest1 (){
 
   notify { 'Initial message':
     message => "

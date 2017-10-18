@@ -1,5 +1,5 @@
 #
-class techyfriday_profile::general () {
+class siebers_profile::general () {
 
   include '::nodeyaml'
 
