@@ -1,6 +1,6 @@
 #
 class techyfriday_profile::demo::puppetmaster (
-  String $puppetdb_listen_address   = 'puppetmaster.example.com',
+  String $puppetdb_listen_address   = 'puppetmaster.siebers.it',
   String $puppetboard_puppetdb_host = $puppetdb_listen_address,
   String $puppetboard_vhost_name    = $puppetdb_listen_address,
 ){
