@@ -1,9 +1,9 @@
 #
 <<<<<<< HEAD
 class siebers_profile::demo::puppetmaster (
-  String $puppetdb_listen_address   = 'puppetmaster.example.com',
+  String $puppetdb_listen_address   = 'puppetmaster.siebers.it',
 =======
-class techyfriday_profile::demo::puppetmaster (
+class siebers_profile::demo::puppetmaster (
   String $puppetdb_listen_address   = 'puppetmaster.siebers.it',
 >>>>>>> 4b01b968fa042ca3955f746288ba3817c2c4e055
   String $puppetboard_puppetdb_host = $puppetdb_listen_address,
